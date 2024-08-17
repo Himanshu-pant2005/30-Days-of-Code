@@ -6,7 +6,7 @@ import sys
 
 
 if __name__ == '__main__':
-    N = int(input().strip())
+    N = int(input().strip()) #Here the input is given in the test that's why .sprip is used you can take input from user like this : N = int(input("Enter the number))
 if N % 2 == 1:
     print("Weird")
 elif 2 <= N <= 5:
